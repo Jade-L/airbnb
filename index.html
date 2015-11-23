@@ -2,9 +2,163 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Latest compiled and minified CSS-->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- JQuery Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!--Latest compiled JavaScript-->
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!--Favicon-->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <title>Airbnb</title>
 </head>
-<body>
 
+<body id="page-top">
+<header>
+<div class="jumbotron">
+  <div class="container-fluid">
+     <nav id="mainNav" class="navbar">
+       <!-- Brand and toggle get grouped for better mobile display -->
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed btn-warning" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="glyphicon glyphicon-list"></span>
+         </button>
+         <a class="navbar-brand page-scroll" href="#page-top">AirBnB</a>
+       </div>
+
+       <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right">
+           <li>
+             <a class="page-scroll" href="#hote">Devenez hôte</a>
+           </li>
+           <li>
+             <a class="page-scroll" href="#help">Aide</a>
+           </li>
+           <li>
+             <a class="page-scroll" href="#inscripion">Inscription</a>
+           </li>
+           <li>
+             <a class="page-scroll" href="#connexion">Connexion</a>
+           </li>
+         </ul>
+       </div>
+       <!-- /.navbar-collapse -->
+     </nav>
+   </div>
+  <div class="intro-text">
+    <h1 id="titreheader" class="intro-heading">
+      Bienvenue à la maison
+    </h1>
+    <p class="intro-lead-in">
+      Louez des logements uniques auprès d'hôtes locaux dans plus de 190 pays.
+    </p>
+    <button id="bouton1" type="button" classe="btn btn-default mode">Mode d'emploie</button>
+  </div>
+  <div id="backfoot">
+    <form class="navbar-form navbar-center">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Où voulez-vous aller ?">
+        <input id="arriver" type="text" class="form-control" placeholder="Arrivée">
+        <input id="depart" type="text" class="form-control" placeholder="Départ">
+        <button type="submit" class="btn btn-danger">Rechercher</button>
+      </div>
+    </form>
+  </div>
+</div>
+</header>
+<div class="container color2">
+<div class="row">
+			<div class="col-md-2 col-sm-1"></div>
+			<div id="firstcontent1" class="col-md-3 col-sm-4">
+				<h1 class="size1">Ouvrez la porte à un voyageur et à une nouvelle vie</h1>
+				<p>Gagnez de l'argent en accueillant des voyageurs.</p>
+				<button type="submit" class="btn btn-primary">Estimer mes revenus</button>
+			</div>
+			<div id="image1" class="col-md-5 col-sm-6">
+				<img class="img-responsive" src="photo4.jpg" alt="acceuil voyageur">
+			</div>
+			<div class="col-md-2 col-sm-1">
+			</div>
+		</div>
+  </div>
+	<div id="middle">
+		<h1>Juste pour le week-end</h1>
+		<p>Découvrez de nouveaux logements incroyables près de chez vous.</p>
+	</div>
+	<div class="row">
+		<div id="img1" class="imgcustom col-md-3 col-sm-7 col-sm-offset-3 col-md-offset-1 col-xs-offset-1">
+			<img class="img-responsive" src="photo1.jpg" alt="Photo1">
+		</div>
+		<div id="img2" class="imgcustom col-md-3 col-sm-7 col-sm-offset-3 col-md-offset-1 col-xs-offset-1">
+			<img src="photo2.jpg" alt="Photo2" class="img-responsive">
+		</div>
+		<div id="img3" class="imgcustom col-md-3 col-sm-7 col-sm-offset-3 col-md-offset-1 col-xs-offset-1">
+			<img src="photo3.jpg" alt="photo3" class="sizeimg">
+		</div>
+	</div>
+  <footer>
+    <div class="row">
+      <section>
+      <div class="col-md-2 col-md-offset-5 col-xs-3 col-xs-offset-1">
+        <h4>Société</h4>
+				<ul class="list-unstyled">
+					<li>À propos</li>
+					<li>Carrières</li>
+					<li>Presse</li>
+					<li>Blog</li>
+					<li>Aide</li>
+					<li>Règles</li>
+					<li>Réponse aux catastrophes</li>
+					<li>Conditions générales et confidentialité</li>
+				</ul>
+      </div>
+      </section>
+      <section>
+      <div class="col-md-2 col-xs-3">
+				<h4>Découvrir</h4>
+				<ul class="list-unstyled">
+					<li>Confiance et sécurité</li>
+					<li>Inviter des amis</li>
+					<li>La sélection Airbnb</li>
+					<li>Application mobile</li>
+					<li>Soutenir New York</li>
+					<li>Voyage d'affaires</li>
+					<li>Plan du site</li>
+				</ul>
+    </div>
+    </section>
+      <section>
+      <div class="col-md-2 col-xs-3">
+				<h4>Hébergement</h4>
+				<ul class="list-unstyled">
+					<li>Pourquoi être hôte</li>
+					<li>Hospitalité</li>
+					<li>Hébergement responsable</li>
+					<li>Sécurité à la maison</li>
+				</ul>
+			</div>
+      </section>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+    <div id="copyright" class="col-md-12">
+        <h1>Rejoignez-nous sur</h1>
+
+  <a href="#"><i class="fa fa-youtube"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+        <h2>© Airbnb, Inc.</h2>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,79 @@
+body {
+  background-color: lightgrey;
+}
+
+.jumbotron {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  background-image: url(../airbnb-office-1.jpg);
+  background-position: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 550px;
+}
+
+#backfoot {
+  margin-left: 23%;
+}
+
+.page-scroll {
+  color: white;
+}
+
+.intro-heading {
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+}
+
+#titreheader {
+  color: white;
+}
+
+.intro-lead-in {
+  color: white;
+  text-align: center;
+}
+
+#bouton1 {
+  margin-left: 45%;
+}
+
+#image1 {
+  width: 50%;
+}
+
+.color2 {
+  background-color: white;
+}
+
+#middle {
+  text-align: center;
+}
+
+@media screen and (max-width: 1080px){
+  section h1{
+    font-size: 1.5em;
+  }
+}
+footer {
+  color: white;
+  text-align: center;
+  background-image: url(../backgroundfooter.jpg);
+  margin-top: 5%;
+}
+
+.imgcustom {
+height: 315px;
+width: 315px;
+overflow: hidden;
+padding-left: 0%;
+padding-right: 0%;
+padding-bottom: 0%;
+}
+.sizeimg{
+  max-height: 315px;
+}
